@@ -27,15 +27,15 @@ public class App {
 
 		// 1. Open the URL
 		// driver.get("http://13.58.166.105:8080/addressbook-2.0/");
-		driver.get("http://3.23.105.112:8081/contact.html");
+		driver.get("http://54.174.193.7:8081/contact.html");
 		// invoke implicit wait
 		driver.manage().timeouts().implicitlyWait(Duration.ofMillis(1000));
 
-		driver.findElement(By.name("your_name")).sendKeys("Shubham");
+		driver.findElement(By.name("your_name")).sendKeys("Jouhar");
 		
 		driver.findElement(By.name("phone_number")).sendKeys("999999999");
 		
-		driver.findElement(By.name("email_address")).sendKeys("xyz@abc.com");
+		driver.findElement(By.name("email_address")).sendKeys("abc@abc.com");
 		
 		driver.findElement(By.name("your_message")).sendKeys("Hello, How are you?");
 		
